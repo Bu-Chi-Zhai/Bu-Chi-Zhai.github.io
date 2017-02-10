@@ -29,7 +29,20 @@
 			],
 			images : ["", "", ""],
 			progress : "",
-			details :""
+			details :[
+				{
+					type : "p",
+					content : "this is a test text for elastic db "
+				}, 
+				{
+					type : "code",
+					content : "public class Solution"
+				},
+				{
+					type : "p",
+					content : "text text text"
+				}
+			]
 
 		},
 		{
@@ -44,10 +57,34 @@
 				"Created product module to support CRUD operations, including product searching and sorting, etc.",
 				"Implemented shopping cart and order check out functionality."
 			],
-			skills : ["", "", ""],
+			skills : [
+				"Spring MVC", 
+				"Spring Data", 
+				"Spring Security",
+				"Spring REST",
+				"Spring Web Flow",
+				"Hibernate",
+				"AngularJS",
+				"JSP",
+				"Bootstrap",
+				"MySQL"
+			],
 			images : ["", "", ""],
 			progress : "",
-			details :""
+			details : [
+				{
+					type : "p",
+					content : "this is a test text for online music store"
+				}, 
+				{
+					type : "code",
+					content : "public class Solution"
+				},
+				{
+					type : "p",
+					content : "text text text"
+				}
+			]
 		},
 	]
 }

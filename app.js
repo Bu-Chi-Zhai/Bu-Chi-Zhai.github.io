@@ -1,9 +1,13 @@
+var vm = {};
+
 $(document).ready(function(){
 	console.log("Hello, my friend!");
-	init();
-	fillProjectDetails();
+
 	$.get('project.txt',function(data){
-	  console.log(data);
+		vm = data;
+		init();
+		fillProjectDetails();
+	    console.log(typeof data);
 	});
 
 });
@@ -84,6 +88,7 @@ var fillProjectDetails = function(){
 
 
 var colors = ["PaleVioletRed", "Orange", "LightSeaGreen ", "Gold", "SteelBlue"];
+/*
 var vm = {
 
 	projects : [
@@ -173,4 +178,4 @@ var vm = {
 			]
 		},
 	]
-}
+}*/
