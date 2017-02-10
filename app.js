@@ -3,7 +3,7 @@ $(document).ready(function(){
 	init();
 	fillProjectDetails();
 	$.getJSON('project.txt',function(data){
-	  alert(data);
+	  console.log(data);
 	});
 
 });
