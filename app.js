@@ -4,10 +4,10 @@ $(document).ready(function(){
 	console.log("Hello, my friend!");
 
 	$.get('project.txt',function(data){
-		vm = data;
+		vm = JSON.parse(data);
 		init();
 		fillProjectDetails();
-	    console.log(typeof data);
+	    console.log(typeof vm);
 	});
 
 });
