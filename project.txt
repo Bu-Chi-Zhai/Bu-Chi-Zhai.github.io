@@ -85,6 +85,6 @@
 					"content" : "text text text"
 				}
 			]
-		},
+		}
 	]
 }
