@@ -1,0 +1,20 @@
+.dropshadow{
+	background-color: #fff;
+}
+
+.noshadow{
+	background-color: rgba(0,0,0,0);
+}
+
+.codeshadow{
+	background-color: #000;
+}
+
+ul li{
+	list-style: none;
+}
+
+code{
+	color: Lime;
+	background-color: #000;
+}
