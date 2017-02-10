@@ -2,7 +2,7 @@ $(document).ready(function(){
 	console.log("Hello, my friend!");
 	init();
 	fillProjectDetails();
-	$.getJSON('project.txt',function(data){
+	$.get('project.txt',function(data){
 	  console.log(data);
 	});
 
