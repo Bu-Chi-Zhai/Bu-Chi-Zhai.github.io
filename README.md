@@ -16,7 +16,7 @@ Browser, type in https://github.com/Bu-Chi-Zhai.github.io
 
 
 ## Built With
-* [Sublime Text2](https://www.jetbrains.com/idea/) - The IDE used
+* [Sublime Text2](http://www.sublimetext.com/2) - The IDE used
 
 
 ## Authors
