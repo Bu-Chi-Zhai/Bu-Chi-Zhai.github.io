@@ -49,7 +49,7 @@
 			"id" : "onlinestore",
 			"title" : "Online Music Store",
 			"time" : "Dec 2016 - Jan 2017",
-			"category" : "Database",
+			"category" : "Fullstack",
 			"bullets" : [
 				"Developed UI by using AngularJS and Bootstrap.", 
 				"Implemented backend functions by using Spring MVC and REST Services", 
@@ -85,6 +85,43 @@
 					"content" : "text text text"
 				}
 			]
+		},
+		{
+			"id" : "miniflickr",
+			"title" : "Mini Flickr",
+			"time" : "Nov 2016 - Nov 2016",
+			"category" : "Frontend",
+			"bullets" : [
+				"Developed UI by using AngularJS and Bootstrap.", 
+				"Implemented backend functions by using NodeJS", 
+				"Used layzyload to display the gallary. ", 
+				"Created pin and customized filter/searching functions.",
+			],
+			"skills" : [
+				"AngularJS", 
+				"NodeJS", 
+				"Bootstrap",
+				"Lazyload",
+				"Flickr API"
+
+			],
+			"images" : [],
+			"progress" : "",
+			"details" : [
+				{
+					"type" : "p",
+					"content" : "this is a test text for miniflickr"
+				}, 
+				{
+					"type" : "code",
+					"content" : "public class Solution"
+				},
+				{
+					"type" : "p",
+					"content" : "text text text"
+				}
+			]
 		}
+
 	]
 }
