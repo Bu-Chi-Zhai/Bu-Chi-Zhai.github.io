@@ -69,7 +69,7 @@
 				"Bootstrap",
 				"MySQL"
 			],
-			"images" : ["img/onlinestore1", "img/onlinestore2", "img/onlinestore3"],
+			"images" : ["img/onlinestore1.png", "img/onlinestore2.png", "img/onlinestore3.png"],
 			"progress" : "",
 			"details" : [
 				{
