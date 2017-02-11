@@ -95,7 +95,7 @@
 				"Developed UI by using AngularJS and Bootstrap.", 
 				"Implemented backend functions by using NodeJS", 
 				"Used layzyload to display the gallary. ", 
-				"Created pin and customized filter/searching functions.",
+				"Created pin and customized filter/searching functions."
 			],
 			"skills" : [
 				"AngularJS", 
