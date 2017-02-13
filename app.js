@@ -41,15 +41,17 @@ var init = function (){
 		// start project jumbotron div
 		divs.push("<div class='jumbotron'>");
 
-		divs.push("<h2>" + value.title + " <span class='badge'>" + value.category + "</span></h2>");
-
-		divs.push("<p>" + value.time + "</p>");
 		// start skill div
 		divs.push("<div class='breadcrumb'>");
-	    $.each(value.skills, function(index, value){
+	    	$.each(value.skills, function(index, value){
 			divs.push("<span class='badge' style='background-color: " + colors[index % 5]+ "'>" + value + "</span>");
 		});
 		// end skill div
+		
+		divs.push("<h2>" + value.title + " <span class='badge'>" + value.category + "</span></h2>");
+
+		divs.push("<p>" + value.time + "</p>");
+		
 		divs.push("</div>");
 
 
