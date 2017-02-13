@@ -32,15 +32,21 @@
 			"details" :[
 				{
 					"type" : "p",
-					"content" : "this is a test text for elastic db "
+					"content" : "<strong>Node setup</strong>"
 				}, 
 				{
 					"type" : "code",
-					"content" : "public class Solution"
+					"content" : "#set master and slaves in set_env.sh<br/>
+						MASTER=15.142.84.135 # fake ip address, example only<br/>
+						SLAVE=(54.84.88.94 135.71.85.121)<br/>
+						CANDIDATE=(34.56.77.82)<br/>
+					"
 				},
 				{
 					"type" : "p",
-					"content" : "text text text"
+					"content" : "Make sure you have installed mysql on all the nodes in the queues. And
+						Make sure those node in queues have root access to each other without password.
+					"
 				}
 			]
 
