@@ -4,7 +4,7 @@ Github Home page
 
 ## Getting Started
 
-Browser, type in https://github.com/Bu-Chi-Zhai.github.io
+Browser, type in https://bu-chi-zhai.github.io/
 
 ### Technologies
 
