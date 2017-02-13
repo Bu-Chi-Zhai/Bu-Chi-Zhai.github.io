@@ -52,7 +52,7 @@ var init = function (){
 
 		divs.push("<p>" + value.time + "</p>");
 		
-		divs.push("</div>");
+		
 
 
 	    divs.push("<div id='"+ value.id + "'><h3>Details</h3></div>");
@@ -78,7 +78,8 @@ var init = function (){
 
 		// end images div
 		divs.push("</div>")
-
+		// end breadcrumb div
+		divs.push("</div>");
 		// end jumbotron div
 		divs.push("</div>");
 
