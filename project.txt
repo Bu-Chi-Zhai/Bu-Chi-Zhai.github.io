@@ -1,22 +1,21 @@
 {
 
-	"projects" : [
-		{
-			"id" : "elasticdb",
-			"title" : "Elastic DB",
-			"time" : "Dec 2016 - Feb 2017",
-			"category" : "Database",
-			"bullets" : [
-						"Used TPC-W benchmark to simulate primarily shopping (WIPS), browsing (WIPSb) and web-based ordering (WIPSo).",
-			 			"Developed an elastic distributed database using MySQL replication and used it to serve as the backend for a multi-tier web application running TPC-W benchmark.", 
-			 			"Developed a load balancer to route the browsing queries to master and route the ordering queries to slaves in a round-robin manner", 
-			 			"Use backup slaves to guarantee the high availability (HA) of the database in the real-time.",
-			 			"Auto scale out/in the database server based on service level agreement when real-time workload changes.",
-			 			"Monitor the workload/database/operating system, display statistic graph of metrics (workload/queries/resources) using CanvasJS."
-			 		],
-			"skills" : [
-				"High availability and dynamic scalability of a distributed database", 
-				"Multi-tier web application", 
+	"projects": [{
+			"id": "elasticdb",
+			"title": "Elastic DB",
+			"time": "Dec 2016 - Feb 2017",
+			"category": "Database",
+			"bullets": [
+				"Used TPC-W benchmark to simulate primarily shopping (WIPS), browsing (WIPSb) and web-based ordering (WIPSo).",
+				"Developed an elastic distributed database using MySQL replication and used it to serve as the backend for a multi-tier web application running TPC-W benchmark.",
+				"Developed a load balancer to route the browsing queries to master and route the ordering queries to slaves in a round-robin manner",
+				"Use backup slaves to guarantee the high availability (HA) of the database in the real-time.",
+				"Auto scale out/in the database server based on service level agreement when real-time workload changes.",
+				"Monitor the workload/database/operating system, display statistic graph of metrics (workload/queries/resources) using CanvasJS."
+			],
+			"skills": [
+				"High availability and dynamic scalability of a distributed database",
+				"Multi-tier web application",
 				"TPC-W benchmark",
 				"MySQL(replication)",
 				"EasyRules",
@@ -27,45 +26,34 @@
 				"Eclipse",
 				"AWS"
 			],
-			"images" : ["img/elasticdb1.png", "img/elasticdb2.png", "img/elasticdb3.png"],
-			"progress" : "",
-			"details" :[
-				{
-					"type" : "p",
-					"content" : "<strong>Node setup</strong>"
-				}, 
-				{
-					"type" : "code",
-					"content" : "#set master and slaves in set_env.sh<br/>
-						MASTER=15.142.84.135 # fake ip address, example only<br/>
-						SLAVE=(54.84.88.94 135.71.85.121)<br/>
-						CANDIDATE=(34.56.77.82)<br/>
-					"
-				},
-				{
-					"type" : "p",
-					"content" : "Make sure you have installed mysql on all the nodes in the queues. And
-						Make sure those node in queues have root access to each other without password.
-					"
-				}
-			]
+			"images": ["img/elasticdb1.png", "img/elasticdb2.png", "img/elasticdb3.png"],
+			"progress": "",
+			"details": [{
+				"type": "p",
+				"content": "<strong>Node setup</strong>"
+			}, {
+				"type": "code",
+				"content": "#set master and slaves in set_env.sh<br/>MASTER = 15.142 .84 .135# fake ip address,example only < br / >SLAVE = (54.84 .88 .94 135.71 .85 .121) < br / >CANDIDATE = (34.56 .77 .82) < br / >"
+			}, {
+				"type": "p",
+				"content": "Make sure you have installed mysql on all the nodes in the queues. And Make sure those node in queues have root access to each other without password."
+			}]
 
-		},
-		{
-			"id" : "onlinestore",
-			"title" : "Online Music Store",
-			"time" : "Dec 2016 - Jan 2017",
-			"category" : "Fullstack",
-			"bullets" : [
-				"Developed UI by using AngularJS and Bootstrap.", 
-				"Implemented backend functions by using Spring MVC and REST Services", 
-				"Designed and Implemented role based user authentication and account management. ", 
+		}, {
+			"id": "onlinestore",
+			"title": "Online Music Store",
+			"time": "Dec 2016 - Jan 2017",
+			"category": "Fullstack",
+			"bullets": [
+				"Developed UI by using AngularJS and Bootstrap.",
+				"Implemented backend functions by using Spring MVC and REST Services",
+				"Designed and Implemented role based user authentication and account management. ",
 				"Created product module to support CRUD operations, including product searching and sorting, etc.",
 				"Implemented shopping cart and order check out functionality."
 			],
-			"skills" : [
-				"Spring MVC", 
-				"Spring Data", 
+			"skills": [
+				"Spring MVC",
+				"Spring Data",
 				"Spring Security",
 				"Spring REST",
 				"Spring Web Flow",
@@ -75,58 +63,49 @@
 				"Bootstrap",
 				"MySQL"
 			],
-			"images" : ["img/onlinestore1.PNG", "img/onlinestore2.PNG", "img/onlinestore3.PNG"],
-			"progress" : "",
-			"details" : [
-				{
-					"type" : "p",
-					"content" : "this is a test text for online music store"
-				}, 
-				{
-					"type" : "code",
-					"content" : "public class Solution"
-				},
-				{
-					"type" : "p",
-					"content" : "text text text"
-				}
-			]
-		},
-		{
-			"id" : "miniflickr",
-			"title" : "Mini Flickr",
-			"time" : "Nov 2016 - Nov 2016",
-			"category" : "Frontend",
-			"bullets" : [
-				"Developed UI by using AngularJS and Bootstrap.", 
-				"Implemented backend functions by using NodeJS", 
-				"Used layzyload to display the gallary. ", 
+			"images": ["img/onlinestore1.PNG", "img/onlinestore2.PNG", "img/onlinestore3.PNG"],
+			"progress": "",
+			"details": [{
+				"type": "p",
+				"content": "this is a test text for online music store"
+			}, {
+				"type": "code",
+				"content": "public class Solution"
+			}, {
+				"type": "p",
+				"content": "text text text"
+			}]
+		}, {
+			"id": "miniflickr",
+			"title": "Mini Flickr",
+			"time": "Nov 2016 - Nov 2016",
+			"category": "Frontend",
+			"bullets": [
+				"Developed UI by using AngularJS and Bootstrap.",
+				"Implemented backend functions by using NodeJS",
+				"Used layzyload to display the gallary. ",
 				"Created pin and customized filter/searching functions."
 			],
-			"skills" : [
-				"AngularJS", 
-				"NodeJS", 
+			"skills": [
+				"AngularJS",
+				"NodeJS",
 				"Bootstrap",
 				"Lazyload",
 				"Flickr API"
 
 			],
-			"images" : [],
-			"progress" : "",
-			"details" : [
-				{
-					"type" : "p",
-					"content" : "this is a test text for miniflickr"
-				}, 
-				{
-					"type" : "code",
-					"content" : "public class Solution"
-				},
-				{
-					"type" : "p",
-					"content" : "text text text"
-				}
-			]
+			"images": [],
+			"progress": "",
+			"details": [{
+				"type": "p",
+				"content": "this is a test text for miniflickr"
+			}, {
+				"type": "code",
+				"content": "public class Solution"
+			}, {
+				"type": "p",
+				"content": "text text text"
+			}]
 		}
 
 	]
