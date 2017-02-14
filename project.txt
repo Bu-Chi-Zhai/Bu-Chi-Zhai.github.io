@@ -143,14 +143,45 @@
 			"progress": "",
 			"details": [{
 				"type": "p",
-				"content": "this is a test text for miniflickr"
-			}, {
-				"type": "code",
-				"content": "public class Solution"
-			}, {
+				"content": "Run following command in your Terminal."
+			},
+			{
+				"type": "pre",
+				"content": "#Install Homebrew on your machine<br/>ruby -e '$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)'<br/>#Install node if it's not installed.<br/>brew install node<br/>#Upgrade Node if it's already installed<br/>brew upgrade node"
+			},
+			{
 				"type": "p",
-				"content": "text text text"
-			}]
+				"content": "Clone the repository."
+			},
+			{
+				"type": "code",
+				"content": "git clone https://github.com/Bu-Chi-Zhai/mini-flickr.git"
+			},
+			{
+            	"type": "p",
+            	"content": "Install bower if it is not installed."
+            },
+            {
+            	"type": "code",
+            	"content": "cd mini-flickr npm install -g bower"
+            },
+            {
+                 "type": "p",
+                 "content": "Apply a Flickr api key at  https://www.flickr.com/services/api/misc.api_keys.html, and then put your Flickr api key in file service/flickrService.js."
+            },
+            {
+                 "type": "p",
+                 "content": "Run server.js."
+            },
+            {
+                 "type": "code",
+                 "content": "node server.js"
+            },
+			{
+                 "type": "p",
+                 "content": "Access the project Type http://localhost:3000 in your browser."
+            }
+			]
 		}
 
 	]
