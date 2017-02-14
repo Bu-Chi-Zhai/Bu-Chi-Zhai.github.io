@@ -43,16 +43,16 @@ var init = function (){
 
 		// start skill div
 		divs.push("<div class='breadcrumb'>");
-	    	$.each(value.skills, function(index, value){
+		$.each(value.skills, function(index, value){
 			divs.push("<span class='badge' style='background-color: " + colors[index % 5]+ "'>" + value + "</span>");
 		});
 		// end skill div
-		
+		divs.push("</div>");
+
 		divs.push("<h2>" + value.title + " <span class='badge'>" + value.category + "</span></h2>");
 
 		divs.push("<p>" + value.time + "</p>");
-		
-		
+
 
 
 	    divs.push("<div id='"+ value.id + "'><h3>Details</h3></div>");
@@ -72,14 +72,13 @@ var init = function (){
 		divs.push("<div class='row'>");
 		$.each(value.images, function(index, value){
 			divs.push("<div class='col-lg-4 col-md-4 col-sm-4'>");
-			divs.push("<a href='#' class='thumbnail' ><img src='" + value + "' alt='elasticdb'> </a>");
+			divs.push("<a href='#' class='thumbnail' ><img src='" + value + "' alt='" + value + "'> </a>");
 			divs.push("</div>");
 		});
 
 		// end images div
 		divs.push("</div>")
-		// end breadcrumb div
-		divs.push("</div>");
+
 		// end jumbotron div
 		divs.push("</div>");
 
@@ -97,6 +96,8 @@ var fillProjectDetails = function(){
 				tags.push("<p>" + value.content + "</p>");
 			}else if(value.type == "code"){
 				tags.push("<div class='well well-lg codeshadow'><code>" + value.content + "</code></div>")
+			}else if(value.type =="pre"){
+				tags.push("<div class='well well-lg codeshadow'><pre>" + value.content + "</pre></div>");
 			}
 		});
 		$('#' + value.id).append(tags.join(""));

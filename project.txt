@@ -28,16 +28,61 @@
 			],
 			"images": ["img/elasticdb1.png", "img/elasticdb2.png", "img/elasticdb3.png"],
 			"progress": "",
-			"details": [{
+			"details": [
+
+			{
 				"type": "p",
 				"content": "<span class='badge badge-pill'>Node setup</span> Set master and slaves in set_env.sh. Enter your IP address at the following places. If you have multiple IP addresses for slaves and candidates, use space to seperate them."
-			}, {
+			},
+			{
 				"type": "code",
 				"content": "MASTER = your_master_IP  SLAVE = (your_slave_IP_1 your_slave_IP_2)  CANDIDATE = (your_candidate_IP)"
-			}, {
+			},
+			{
 				"type": "p",
 				"content": "Make sure you have installed mysql on all the nodes in the queues. And Make sure those node in queues have root access to each other without password."
-			}]
+			},
+
+			{
+            	"type": "p",
+            	"content": "<span class='badge badge-pill'>Eclipse</span> Import code to your eclipse. Run following commands in your Terminal:"
+            },
+			{
+				"type": "pre",
+				"content": "mvn eclipse:eclipse<br/>mvn dependency:resolve<br/>"
+			},
+
+			{
+				"type": "p",
+				"content": "<span class='badge badge-pill'>Property</span> Modify the scripts/set_env.sh to set the MASTER, SLAVE and CANDIDATE; Modify the tpcw.properties to set the read queue, write queue and candidate queues; Modify the tpcw.properties to set the server that we would like to destroy (to test availability)"
+			},
+
+			{
+            	"type": "p",
+            	"content": "<span class='badge badge-pill'>Setup</span> Use ./testConnection to test the access of each other; Use ./prepareMasterSlaves to get ready for master, slaves and candidates."
+            },
+			{
+				"type": "pre",
+				"content": "./testConnection.sh <br/>./prepareMasterSlaves.sh<br/>"
+			},
+			{
+                "type": "p",
+                "content": "<span class='badge badge-pill'>Run</span> From eclipse, you can run the program without any parameter. If you want to test scalability, runt it with -c. If you want to test availability and scalability, run it with -c -d."
+            },
+            {
+            	"type": "p",
+            	"content": "<span class='badge badge-pill'>Monitor</span> run ./enableMonitorys.sh, this will run dstats and open windows for MASTER, SLAVE and CANDIDATE"
+            },
+            {
+            	"type": "code",
+            	"content": "./enableMonitor.sh"
+            },
+            {
+            	"type": "p",
+            	"content": "Open your browser to point to monitor IP: 8080/WebContent/elasticdb.jsp"
+            }
+
+			]
 
 		}, {
 			"id": "onlinestore",

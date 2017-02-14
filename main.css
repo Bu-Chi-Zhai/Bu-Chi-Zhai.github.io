@@ -14,7 +14,17 @@ ul li{
 	list-style: none;
 }
 
-code{
+code, pre{
 	color: Lime;
 	background-color: #000;
+}
+
+pre{
+	border-color: #000;
+}
+
+.jumbotron p {
+
+	font-size: 16px;
+	font-weight: 400;
 }
