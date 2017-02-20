@@ -106,20 +106,27 @@
 				"AngularJS",
 				"JSP",
 				"Bootstrap",
-				"MySQL"
+				"H2/MySQL"
 			],
-			"images": ["img/onlinestore1.PNG", "img/onlinestore2.PNG", "img/onlinestore3.PNG"],
+			"images": [],
 			"progress": "",
 			"details": [{
 				"type": "p",
-				"content": "this is a test text for online music store"
-			}, {
-				"type": "code",
-				"content": "public class Solution"
-			}, {
+				"content": "IDE: IntelliJ IDEA"
+			},
+			{
 				"type": "p",
-				"content": "text text text"
-			}]
+				"content": "Server: Apache Tomcat 7"
+			},
+			{
+            	"type": "p",
+            	"content": "Framework: Spring"
+            },
+            {
+                "type": "p",
+                "content": "Database: H2 (V1) / MySQL (V2)"
+            }
+			]
 		}, {
 			"id": "miniflickr",
 			"title": "Mini Flickr",
